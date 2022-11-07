@@ -1,0 +1,42 @@
+@media (max-width: 768px) {
+	.wrap {
+		width: 100%;
+	}
+}
+
+@media (max-width: 377px) {
+	.slider {
+		height: 624px;
+		&-img {
+			width: 374px;
+		}
+		&__btn {
+			position: absolute;
+			&-right {
+				margin-left: 332px;
+			}
+		}
+	}
+
+	.wrap {
+		width: 100%;
+	}
+
+	.ad {
+		height: 600px;
+		width: 375px;
+		&__info {
+			line-height: 20px;
+		}
+		&__line {
+			width: 60%;
+		}
+		&__wrap details > summary {
+			font-size: 10px;
+			line-height: 12px;
+		}
+		&__btn {
+			padding: 15px 50px;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.product__img {
+	height: 777px;
+	background-color: #f7f7f7;
+	background-image: url(/img/product-card.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.wrap {
+	width: 1184px;
+	margin: 0 auto;
+}
+
+.slider {
+	background-color: #f7f7f7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 777px;
+	&__btn {
+		color: #fff;
+		padding: 8px 15px;
+		border: 0px;
+		cursor: pointer;
+		&:active {
+			background: #f16d7f;
+			color: white;
+		}
+	}
+}
+
+.about-wrap {
+	margin-top: -65px;
+	position: relative;
+}

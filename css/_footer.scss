@@ -1,0 +1,40 @@
+.footer {
+	background-color: #222224;
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__text {
+		color: #fbfbfb;
+		padding: 30px 0;
+		font-size: 16px;
+		line-height: 19px;
+	}
+}
+
+.navigation {
+	cursor: pointer;
+	&:not(:first-child) {
+		color: #222222;
+		padding: 9px 10px;
+		background-color: #ffffff;
+	}
+	&:first-child {
+		padding: 9px 12px;
+		color: #222222;
+		background-color: #ffffff;
+	}
+	&:nth-child(3) {
+		padding: 9px 11px;
+		color: #222222;
+		background-color: #ffffff;
+	}
+	&:not(:last-child) {
+		margin-right: 8px;
+	}
+	&:active {
+		background: #f16d7f;
+		color: #ffffff;
+	}
+}

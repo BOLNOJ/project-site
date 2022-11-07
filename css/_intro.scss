@@ -1,0 +1,28 @@
+.intro {
+	height: 764px;
+	background-color: #f1e4e6;
+	margin-bottom: 65px;
+	&__wrap {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		height: 100%;
+		background-image: url(../img/main-photo.png);
+		background-repeat: no-repeat;
+		background-position: -212px bottom;
+	}
+	&__text {
+		margin-right: 220px;
+		padding-left: 16px;
+		border-left: 12px solid #f16d7f;
+	}
+	&__brand {
+		font-weight: 900;
+		font-size: 48px;
+		line-height: 58px;
+		margin-right: 100px;
+	}
+	h1 {
+		max-width: 377px;
+	}
+}

@@ -1,0 +1,22 @@
+.pagination {
+	margin: 0 auto;
+	width: 284px;
+	height: 44px;
+	border: 1px solid #ebebeb;
+	border-radius: 10px;
+	margin-bottom: 96px;
+	&__wrap {
+		display: flex;
+		justify-content: space-around;
+		& p {
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 19px;
+			margin-top: 12px;
+		}
+	}
+	&-img {
+		margin-top: 10px;
+		cursor: pointer;
+	}
+}

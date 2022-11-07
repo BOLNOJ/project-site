@@ -1,0 +1,192 @@
+/*! Создал этот css из-за проблем с scss, никакие стили не компилируется, как решится проблема, перепишу в scss. */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+}
+/*? card.html */
+.order {
+	height: 876px;
+}
+
+.order__wrap {
+	display: flex;
+	justify-content: space-between;
+}
+
+.order__cardbox {
+	max-width: 652px;
+	height: 306px;
+}
+
+.order__card {
+	width: 654px;
+	height: 307px;
+	border: 1px solid #eaeaea;
+	box-shadow: 12px 10px 12px 2px #eaeaea;
+}
+
+.order__card:not(:last-child) {
+	margin-bottom: 39px;
+}
+
+.order__card:last-child {
+	margin-bottom: 72px;
+}
+
+.order__card-wrap {
+	display: flex;
+}
+
+.order__text {
+	padding: 22px 109px 62px 19px;
+}
+
+.order__text h3 {
+	max-width: 262px;
+	margin-bottom: 42px;
+}
+
+.order__text p {
+	font-size: 22px;
+	line-height: 26px;
+	color: #575757;
+}
+
+.order__text button {
+	padding: 2px 16px;
+	background-color: #ffffff;
+	border: 2px solid #eaeaea;
+}
+
+.order__text p:not(:last-child) {
+	margin-bottom: 6px;
+}
+
+.button__wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 128px;
+}
+
+.order__button {
+	display: inline-block;
+	border: 1px solid #a4a4a4;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.order__btn {
+	text-decoration: none;
+	padding: 17px 40px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+	color: #000000;
+}
+
+.order__form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 78px;
+}
+
+.order__form h3 {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #222222;
+	margin-bottom: 20px;
+}
+
+.input__text {
+	border: 1px solid #a4a4a4;
+	width: 360px;
+	height: 45px;
+	margin-bottom: 20px;
+	text-indent: 17px;
+}
+
+.input__text:last-child {
+	margin-bottom: 23px;
+}
+
+.form__button {
+	background-color: white;
+	border: 1px solid #a4a4a4;
+	font-weight: 300;
+	color: #4a4a4a;
+	font-size: 11px;
+	line-height: 13px;
+	width: 102px;
+	height: 35px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+}
+
+.payment {
+	border: 2px solid #e2e2e2;
+	background-color: #f5f3f3;
+	width: 360px;
+	height: 214px;
+}
+
+.payment p {
+	text-align: right;
+	padding-right: 35px;
+}
+
+.payment span {
+	padding-left: 15px;
+}
+
+.payment p:first-child {
+	font-size: 11px;
+	line-height: 13px;
+	color: #4a4a4a;
+	margin-top: 39px;
+}
+
+.payment__text {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #222222;
+	margin-top: 12px;
+	margin-bottom: 21px;
+}
+
+.payment__line {
+	margin: 0 auto;
+	margin-bottom: 17px;
+	background: #e2e2e2;
+	border: 1px solid #e2e2e2;
+	width: 77%;
+}
+
+.payment__button {
+	margin-left: 39px;
+	display: inline-block;
+	padding: 15px 41px;
+	background: #f16d7f;
+	text-align: center;
+}
+
+.payment__btn {
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+/*? catalog.html */

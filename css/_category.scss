@@ -1,0 +1,47 @@
+.category {
+	margin-bottom: 96px;
+	&__wrap {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__item {
+		width: 100%;
+		height: 260px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-repeat: no-repeat;
+		transition: all 3s;
+		&:hover {
+			transform: scale(0.75);
+		}
+		&:not(:last-child) {
+			width: 32%;
+			margin-bottom: 30px;
+			box-shadow: inset 0px 260px 0px rgba(33, 22, 22, 0.7);
+		}
+		&:nth-child(1) {
+			background-image: url(../img/forWomen.png);
+			background-position: center;
+		}
+		&:nth-child(2) {
+			background-image: url(../img/forMen.png);
+			background-position: center;
+		}
+		&:nth-child(3) {
+			background-image: url(../img/forKids.png);
+			background-position: center;
+		}
+		&:nth-child(4) {
+			background-image: url(../img/acces.png);
+			background-position: center;
+			height: 180px;
+			box-shadow: inset 0px 180px 0px rgba(33, 22, 22, 0.7);
+		}
+	}
+	p {
+		text-align: center;
+		color: white;
+	}
+}

@@ -1,0 +1,43 @@
+.contact {
+	height: 448px;
+	background-image: url(../img/subscribe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__face {
+		padding-top: 97px;
+		width: 360px;
+	}
+	&__face-img {
+		margin-bottom: 30px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&__heading-face {
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+	}
+	&__heading-sub {
+		text-align: center;
+		margin-bottom: 32px;
+		font-size: 18px;
+		line-height: 30px;
+		font-weight: 400;
+	}
+}
+
+.subscribe {
+	padding-top: 150px;
+	width: 557px;
+	&__decor {
+		font-weight: 700;
+		font-size: 24px;
+		line-height: 40px;
+	}
+}

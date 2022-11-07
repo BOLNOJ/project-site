@@ -1,0 +1,33 @@
+.arrival {
+	background-color: #f8f3f4;
+	height: 148px;
+	&__link {
+		text-decoration: none;
+		color: #636363;
+	}
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__margin {
+		margin-bottom: 96px;
+		&-registr {
+			margin-bottom: 64px;
+		}
+	}
+	.media__cart {
+		color: $colorDecor;
+		font-size: 24px;
+		line-height: 29px;
+		margin-top: 59px;
+	}
+}
+.men {
+	margin-top: 65px;
+}
+.new {
+	color: $colorDecor;
+	font-size: 24px;
+	line-height: 29px;
+	margin-top: 59px;
+}

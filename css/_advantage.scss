@@ -1,0 +1,43 @@
+.advantage {
+	background: #222224;
+	height: 341px;
+	&__wrap {
+		display: flex;
+	}
+	&__heading {
+		color: #fbfbfb;
+		text-align: center;
+		margin-bottom: 16px;
+		font-size: 20px;
+		line-height: 24px;
+	}
+	&__text {
+		color: #fbfbfb;
+		text-align: center;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 17px;
+		text-align: center;
+	}
+}
+
+.delivery {
+	&:nth-child(1) {
+		background-image: url(../img/car.svg);
+		background-repeat: no-repeat;
+		background-position: 170px 103px;
+		padding-top: 163px;
+	}
+	&:nth-child(2) {
+		background-image: url(../img/sale.svg);
+		background-repeat: no-repeat;
+		background-position: 170px 103px;
+		padding-top: 163px;
+	}
+	&:nth-child(3) {
+		background-image: url(../img/quality.svg);
+		background-repeat: no-repeat;
+		background-position: 170px 103px;
+		padding-top: 163px;
+	}
+}
