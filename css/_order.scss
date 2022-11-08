@@ -55,24 +55,10 @@
 		line-height: 17px;
 		color: #575757;
 	}
-	&__form {
-		display: flex;
-		flex-direction: column;
-		margin-bottom: 78px;
+	input::-webkit-outer-spin-button,
+	input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
 	}
-	&__form h3 {
-		font-weight: 300;
-		font-size: 16px;
-		line-height: 19px;
-		color: #222222;
-		margin-bottom: 20px;
-	}
-}
-
-.button__wrap {
-	display: flex;
-	justify-content: space-between;
-	margin-bottom: 128px;
 }
 
 .form__button {
@@ -86,9 +72,10 @@
 	height: 35px;
 }
 
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-	-webkit-appearance: none;
+.button__wrap {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 128px;
 }
 
 .payment {
@@ -140,14 +127,28 @@ input::-webkit-inner-spin-button {
 	}
 }
 
-.feedback__text {
-	border: 1px solid #a4a4a4;
-	width: 360px;
-	height: 45px;
-	margin-bottom: 20px;
-	text-indent: 17px;
-}
+.feedback {
+	&__form {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 78px;
+		& h3 {
+			font-weight: 300;
+			font-size: 16px;
+			line-height: 19px;
+			color: #222222;
+			margin-bottom: 20px;
+		}
+	}
+	&__text {
+		border: 1px solid #a4a4a4;
+		width: 360px;
+		height: 45px;
+		margin-bottom: 20px;
+		text-indent: 17px;
 
-.feedback__text:last-child {
-	margin-bottom: 23px;
+		&:last-child {
+			margin-bottom: 23px;
+		}
+	}
 }

@@ -18,8 +18,13 @@
 }
 
 @media (max-width: 377px) {
-	.arrival__wrap {
-		flex-direction: column;
+	.arrival {
+		&__wrap {
+			flex-direction: column;
+		}
+		&__margin {
+			margin-bottom: 50px;
+		}
 	}
 	.new {
 		margin: 0 auto;

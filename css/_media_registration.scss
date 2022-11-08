@@ -29,6 +29,9 @@
 		&__wrap {
 			flex-direction: column;
 		}
+		&__input {
+			width: 350px - 2px;
+		}
 		&__loyalty {
 			height: 340px;
 			margin-left: 0px;

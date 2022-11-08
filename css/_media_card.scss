@@ -35,6 +35,11 @@
 		margin: 0 auto;
 		margin-top: 50px;
 	}
+
+	.form__button {
+		margin: 0 auto;
+	}
+
 	.order {
 		margin: 0 auto;
 		height: 100%;
@@ -62,8 +67,8 @@
 		&__text button {
 			padding: 0px 10px;
 		}
-		.order__button {
-			height: 36px;
+		&__button {
+			height: 32px;
 		}
 
 		&__btn {
@@ -76,11 +81,16 @@
 			margin-bottom: 48px;
 		}
 	}
+
 	.feedback {
-		margin-bottom: 96px;
+		margin-bottom: 48px;
 		flex-direction: column;
+		&__form {
+			margin-bottom: 0px;
+		}
+		&__text{
+			width: 355 - 2px;
+		}
 	}
-	.arrival__margin {
-		margin-bottom: 50px;
-	}
+	
 }
